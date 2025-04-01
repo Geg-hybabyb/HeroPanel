@@ -1,15 +1,7 @@
 import { createSlice, createAsyncThunk, createEntityAdapter, createSelector } from "@reduxjs/toolkit";
 import {useHttp} from '../../hooks/http.hook';
 
-// const initialState = {
-//     filters: [],
-//     filtersLoadingStatus: 'idle',
-//     filterElement: 'all'
-// }
-
-const filtersAdapter = createEntityAdapter({
-    selectId: state => state.name
-});
+const filtersAdapter = createEntityAdapter();
 
 const initialState = filtersAdapter.getInitialState({
     filtersLoadingStatus: 'idle',
