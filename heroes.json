@@ -1,0 +1,44 @@
+{
+  "heroes": [
+    {
+      "id": "thor",
+      "name": "thor",
+      "description": "еее",
+      "element": "wind"
+    },
+    {
+      "id": "Gleck",
+      "name": "Gleck",
+      "description": "s",
+      "element": "water"
+    },
+    {
+      "id": "8ff56ff8-fc99-45f7-9096-fc12b74dd228",
+      "name": "asd",
+      "description": "z",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "label": "Все",
+      "name": "all"
+    },
+    {
+      "label": "Огонь",
+      "name": "fire"
+    },
+    {
+      "label": "Вода",
+      "name": "water"
+    },
+    {
+      "label": "Ветер",
+      "name": "wind"
+    },
+    {
+      "label": "Земля",
+      "name": "earth"
+    }
+  ]
+}
